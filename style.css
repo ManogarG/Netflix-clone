@@ -1,0 +1,202 @@
+* {
+  border: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/header-image.png");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+nav button {
+  cursor: pointer;
+  background-color: rgb(217, 31, 31);
+  color: white;
+  padding: 9px 20px;
+  margin-left: 15px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.language-btn {
+  display: inline-flex;
+  background: transparent;
+  border: 2px solid white;
+  padding: 7px 10px;
+}
+
+.language-btn img {
+  width: 10px;
+  height: 8px;
+  margin: 5px 10px;
+}
+
+.center {
+  text-align: center;
+  padding: 10px;
+  margin: 150px;
+}
+
+.center h4 {
+  font-size: 18px;
+  font-weight: 10px;
+  margin-top: 15px;
+  margin-bottom: 32px;
+}
+
+.login {
+  margin: 10px 0px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.login form {
+  justify-content: center;
+  padding: 10px;
+  width: 700px;
+  background: transparent;
+}
+
+.login input {
+  background: transparent;
+  border: 2px solid rgb(131, 128, 128);
+  width: 350px;
+  border-radius: 4px;
+  height: 55px;
+  margin-right: 20px;
+}
+
+.get-start {
+  background-color: rgb(217, 31, 31);
+  border-radius: 4px;
+  color: White;
+  font-size: x-large;
+  padding: 5px 30px 14px 30px;
+  cursor: pointer;
+}
+
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 100px;
+}
+
+.movies img {
+  height: 300px;
+  border: 2px solid rgb(217, 31, 31);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.movies {
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+
+.reasons img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.more-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 100px;
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+
+.total-qa {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 100px;
+}
+
+.qa {
+  margin-top: 20px;
+}
+
+.questions {
+  background-color: rgb(64, 62, 62);
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.Answer {
+  background-color: rgb(50, 49, 49);
+  padding: 20px;
+}
+
+.bottom-login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bottom-login input {
+  background: transparent;
+  border: 2px solid rgb(131, 128, 128);
+  width: 350px;
+  border-radius: 4px;
+  height: 55px;
+  margin-right: 20px;
+}
+
+#bo-t {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contect {
+  display: flex;
+  margin: 20px 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.contect p {
+  padding: 20px;
+}
+
+.learnmore {
+  margin: 20px 100px;
+}
+
+.learnmore h5,
+p {
+  padding: 10px;
+  margin: 10px;
+}
